@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex; /*Deixando o conteudo da pagina alinhado numa linha*/
     align-items: center; /*Alinhamento conforme a imagem, pois é o elemento de maior altura*/
     justify-content: space-between;
@@ -25,6 +25,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column; /*Deixando o conteudo da pagina alinhado numa coluna*/
+    gap: 40px; /*Deixando o conteudo dentro dessa classe com um espaçamento entre eles*/
 }
 
 .apresentacao__conteudo__titulo {
