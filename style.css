@@ -10,6 +10,11 @@ body {
     color: #f6f6f6;
 }
 
-.título-destaque {
+.titulo-destaque {
     color: #0EE601;
+}
+
+.apresentacao {
+    display: flex; /*Deixando o conteudo da pagina alinhado numa linha*/
+    align-items: center; /*Alinhamento conforme a imagem, pois é o elemento de maior altura*/
 }
