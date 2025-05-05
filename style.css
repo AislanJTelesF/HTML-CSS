@@ -15,6 +15,20 @@ body {
 }
 
 .apresentacao {
+    margin: 10%;
     display: flex; /*Deixando o conteudo da pagina alinhado numa linha*/
     align-items: center; /*Alinhamento conforme a imagem, pois é o elemento de maior altura*/
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
 }
