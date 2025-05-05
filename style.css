@@ -4,6 +4,8 @@
 }
 
 body {
+    height: 100vh; /*Para redimensionar a dimensão do body baseado no "viewport" do doc index.html*/
+    box-sizing: border-box; /*Garantindo que os elementos não saiam da body*/
     background-color: #000000;
     color: #f6f6f6;
 }
