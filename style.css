@@ -12,13 +12,26 @@ body {
     color: #f6f6f6;
 }
 
-.titulo-destaque {
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #0EE601;
+    text-decoration: none;
 }
 
 .apresentacao {
     /* margin: 10% 15%; */
-    padding: 8% 15%;
+    padding: 2.78% 15%;
     display: flex; /*Deixando o conteudo da pagina alinhado numa linha*/
     align-items: center; /*Alinhamento conforme a imagem, pois é o elemento de maior altura*/
     justify-content: space-between;
@@ -34,6 +47,10 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: "Krona One", sans-serif;
+}
+
+.titulo-destaque {
+    color: #0EE601;
 }
 
 .apresentacao__conteudo__paragrafo {
