@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh; /*Para redimensionar a dimensão do body baseado no "viewport" do doc index.html*/
+    /*height: 100vh; Para redimensionar a dimensão do body baseado no "viewport" do doc index.html*/
     box-sizing: border-box; /*Garantindo que os elementos não saiam da body*/
     background-color: #000000;
     color: #f6f6f6;
@@ -17,7 +17,8 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    /* margin: 10% 15%; */
+    padding: 8% 15%;
     display: flex; /*Deixando o conteudo da pagina alinhado numa linha*/
     align-items: center; /*Alinhamento conforme a imagem, pois é o elemento de maior altura*/
     justify-content: space-between;
@@ -74,4 +75,14 @@ body {
 
 .apresentacao__links__botao:hover {
     background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #0EE601;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
