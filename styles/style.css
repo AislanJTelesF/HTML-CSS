@@ -48,7 +48,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column; /*Deixando o conteudo da pagina alinhado numa coluna*/
     gap: 40px; /*Deixando o conteudo dentro dessa classe com um espaçamento entre eles*/
@@ -89,7 +89,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -102,6 +102,10 @@ body {
 
 .apresentacao__links__botao:hover {
     background-color: var(--cor-hoover);
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .rodape {
